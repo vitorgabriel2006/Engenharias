@@ -1,0 +1,1105 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Resets */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+html,
+body {
+    scroll-behavior: smooth !important;
+}
+
+nav a {
+    transition: 0.5 ease-in-out;
+}
+
+:root {
+    --gray: #242426;
+    --lightGray: #414141;
+    --orange: #FF7426;
+    --poppins: 'Poppins', sans-serif;
+    --raleway: 'Raleway', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: var(--gray);
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--raleway) !important;
+}
+
+p,
+a {
+    font-family: var(--poppins) !important;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.bg-dark {
+    background-color: var(--gray) !important;
+}
+
+.card {
+    background-color: var(--gray) !important;
+}
+
+.text-orange {
+    color: #FF7426 !important;
+}
+
+.btn-primary {
+    background-color: var(--orange) !important;
+    color: #fff;
+    border: none;
+}
+
+.bg-secondary {
+    background-color: var(--lightGray);
+}
+
+.btn-warning {
+    background-color: var(--orange) !important;
+    border: none;
+    width: 164px;
+    height: 45px;
+}
+
+/* Navbar */
+
+a.nav-link.dropdown-toggle::after {
+    color: var(--orange) !important;
+}
+
+.dropdown-item::before {
+    color: #FF7426;
+}
+
+.dropdown-menu.show {
+    background-color: var(--lightGray) !important;
+}
+
+.dropdown-menu.show .dropdown-item {
+    background-color: var(--lightGray);
+}
+
+.navShadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.listNavbar li>a:hover {
+    transition: ease-in-out 0.4s;
+    color: var(--orange) !important;
+}
+
+.headline {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.containerHeadline {
+    width: 100%;
+    height: 100vh;
+}
+
+h1.headlineFont {
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 85px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px var(--orange);
+}
+
+h3.headlineFont {
+    font-size: 28px;
+    letter-spacing: 0.12em;
+    white-space: nowrap;
+}
+
+p.headlineFont {
+    font-size: 20px;
+    letter-spacing: 0.40em;
+    text-decoration: underline #ff76269d;
+    text-decoration-style: wavy;
+}
+
+a.headlineFont {
+    text-transform: uppercase;
+}
+
+.arrow-right {
+    width: 40px;
+}
+
+.containerImages{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orangeSquare {
+    width: 540px;
+    height: 350px;
+    background-color: var(--orange);
+    right: 0;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255, 116, 38, 0.7) 1.72%, rgba(255, 116, 38, 0) 117.32%);
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.5));
+    border-radius: 20px 0px 0px 10px;
+}
+
+.whiteSquare {
+    width: 230px;
+    height: 190px;
+    background: #d9d9d9;
+    position: absolute;
+    bottom: -70px;
+    left: -3vw;
+    box-shadow: 0px 10px 4px rgba(255, 116, 38, 0.24);
+    border-radius: 0px 0px 7px 7px;
+    z-index: 1;
+}
+
+.imgInsdustria {
+    width: 470px;
+    height: 280px;
+    background: url('../images/headlineIndustria.jpg');
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+    z-index: 2;
+    top: 8vh;
+    right: 10vw;
+}
+
+.imgHeadline {
+    width: 440px;
+    height: 280px;
+    background: url('../images/headline.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 3;
+    border-radius: 10px;
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.5));
+    top: 15vh;
+    right: 5vw;
+}
+
+
+/* Área engenharia em geral */
+
+.containerEngenharia {
+    width: 100%;
+    min-height: 390px;
+}
+
+h2.engenhariaFont {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+p.engenhariaFont {
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+
+/* Área lista das principais engenharias */
+
+.containerListAreas {
+    width: 100%;
+    min-height: 440px;
+}
+
+.cardCursos{
+    background-color: #383838 !important;
+}
+
+.cardCursos a{
+    text-decoration: underline #ff762668;
+    text-decoration-style: wavy;
+}
+.cardCursos a:hover{
+    text-decoration: underline #ffffff68;
+    text-decoration-style: wavy;
+}
+.cardCursos:hover{
+transform: scale(1.02);
+transition: 0.3s ease;
+}
+
+.listEngenharias li>a:hover {
+    transition: ease-in-out 0.4s;
+    color: var(--orange) !important;
+}
+
+h2.listAreaFont {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h5.listAreaFont {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    line-height: 36px;
+}
+
+/* Área Importância da engenharia */
+
+.containerEngImport {
+    width: 100%;
+    min-height: 440px;
+    padding-bottom: 100px;
+}
+
+.containerEngImport > .container > h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.imgCarouselFilter{
+    position: relative; 
+}
+
+.imgCarouselFilter::before {
+    content: ""; 
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000008e;
+    pointer-events: none;
+}
+
+
+/* Cursos */
+
+h2.cursosFont {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+p.cursosFont {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    width: 85%;
+}
+
+
+.doubtsCircle{
+    border-radius: 169px;
+    width: 250px;
+    height: 50px;
+    background-color: #FF7426;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    color: #fff;
+    font-weight: 500;
+    font-family: var(--poppins);
+}
+
+.doubtsSquare{
+    width: 250px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #FF7426;
+    font-weight: 600;
+    font-family: var(--poppins);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+
+
+/* Áreas de atuação e perfil profissional */
+
+.containerPerfil {
+    width: 100%;
+    min-height: 560px;
+    padding-bottom: 80px;
+}
+
+h2.perfilFont {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.perfilFont {
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+}
+
+/* Faculdades */
+
+.containerFaculdades {
+    width: 100%;
+    min-height: 400px;
+    background-color: var(--lightGray);
+    border-radius: 5px;
+}
+
+h2.faculdadesFont {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Engenharia da computação */
+
+.containerComputacao {
+    width: 100%;
+    min-height: 780px;
+    background: rgba(0, 0, 0, 0.836) url('../images/engComputacao.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Engenharia Civil */
+
+.containerCivil {
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.836) url('../images/engCivil.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Engenharia Elétrica */
+
+.containerEletrica {
+    width: 100%;
+    min-height: 630px;
+    background: rgba(0, 0, 0, 0.836) url('../images/engEletrica.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Engenharia de Controle e Automação */
+
+.containerControleAutomacao {
+    width: 100%;
+    min-height: 570px;
+    background: rgba(0, 0, 0, 0.836) url('../images/engControleAutomacao.webp');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Engenharia Mecânica */
+
+.containerMecanica {
+    width: 100%;
+    min-height: 650px;
+    background: rgba(0, 0, 0, 0.836) url('../images/engMecanica.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* Fim da área dos cursos */
+
+
+
+
+
+/* Área Pós-Graduação */
+
+.containerPosGrad {
+    width: 100%;
+    min-height: 520px;
+}
+
+h2.posGradFont {
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+p.posGradFont {
+    font-weight: 300;
+    font-size: 23px;
+    letter-spacing: 0.02em;
+}
+
+.accordion-item {
+    margin: 10px;
+}
+
+.posGradTabFont {
+    color: var(--orange) !important;
+}
+
+.accordion-header {
+    background-color: var(--lightGray) !important;
+}
+
+.accordion-body {
+    background-color: var(--lightGray) !important;
+    color: #fff;
+}
+
+.accordion-button {
+    color: var(--orange) !important;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+}
+
+.accordion-button:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+
+/* Área Creas */
+
+.containerCreas {
+    width: 100%;
+    min-height: 400px;
+    background-color: var(--gray);
+}
+
+.containerCircles a {
+    text-decoration: none;
+    font-family: var(--raleway);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.containerCircles a:hover {
+    opacity: 0.8;
+    transform: scale(1.05)
+}
+
+.circle {
+    background-color: var(--orange);
+    height: 40px;
+    width: 40px;
+}
+
+h2.conselhosFont {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+p.conselhosFont {
+    font-weight: 300;
+    font-size: 23px;
+    letter-spacing: 0.02em;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--orange);
+}
+
+.alertConselhos {
+    background-color: #414141;
+    width: 500px;
+    height: 60px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    min-height: 500px;
+    padding: 80px 0;
+    background-color: #000000;
+}
+
+h3.footerFont {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+}
+
+.navFooter {
+    list-style: none;
+    padding: 0;
+}
+
+a.footerFont {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.footerFont:hover {
+    transition: ease-in-out 0.4s;
+    color: var(--orange) !important;
+}
+
+legend.duvidasFont {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.containerInput label {
+    color: #919191;
+}
+
+.containerInput {
+    width: 420px;
+}
+
+.invalid-feedback {
+    color: #f49e6b !important;
+}
+
+.btnForm {
+    width: 100px;
+    border-radius: 3px;
+}
+
+.btnForm:hover {
+    opacity: 0.8;
+}
+
+.containerSocial {
+    margin-top: 50px;
+    min-height: 500px;
+    width: 100%;
+    border-top: 1px solid var(--orange);
+    padding-top: 50px;
+}
+
+.cardSocial {
+    width: 240px;
+    height: 300px;
+    transition: .5s;
+}
+
+.imgCardSocial {
+    width: 100%;
+}
+
+.cardSocial img {
+    width: 70px;
+}
+
+a.cardSocialFont {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+a.cardSocialFont:hover,
+.cardSocial .btn-primary:hover {
+    opacity: 0.8;
+}
+
+p.cardSocialFont {
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+}
+
+.cardSocial:hover {
+    transform: translateY(-10px);
+    filter: drop-shadow(0px 4px 4px #FF7426);
+}
+
+
+
+/* Responsive CSS */
+
+
+
+
+@media (max-width: 991.98px) {
+
+    /* Reset */
+
+    p {
+        font-size: 12px !important;
+    }
+
+
+    h5 {
+        font-size: 14px !important;
+    }
+
+    h2 {
+        font-size: 22px !important;
+    }
+
+    a {
+        font-size: 12px !important;
+    }
+
+    /* Navbar */
+
+    .navbar-brand {
+        width: 40px;
+    }
+
+    /* Headline */
+
+    .headline {
+        padding-top: 100px;
+        width: 100%;
+        height: 400px !important;
+        display: flex;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.806) url('../images/bgHeadline-sm.jpg');
+        background-blend-mode: darken;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .headline-sm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1.headlineFont {
+        font-size: 42px;
+    }
+
+    h3.headlineFont {
+        font-size: 18px;
+    }
+
+    a.headlineFont {
+        font-size: 10px !important;
+    }
+
+    p.headlineFont {
+        font-size: 18px !important;
+    }
+
+    .arrow-right {
+        width: 30px;
+        margin-bottom: 5px;
+    }
+
+    a.btn-warning {
+        width: 100px;
+        height: 30px;
+    }
+
+    .containerImages {
+        display: none;
+    }
+
+    /* Engenharia Geral */
+
+    .containerEngenharia {
+        width: 100%;
+        min-height: 340px;
+    }
+
+    /* Principais cursos */
+
+    .containerListAreas {
+        height: 520px !important;
+    }
+
+    h5.listAreaFont {
+        margin-bottom: 0;
+    }
+
+    /* Dúvidas frequentes */
+
+
+    .containerDuvidas {
+        width: 100%;
+        min-height: 600px;
+    }
+
+    .headerDuvidas {
+        width: 100%;
+    }
+
+    .areaTitle {
+        height: 50px;
+        border-radius: 7px 7px 0 0;
+        top: 0;
+    }
+
+    .areaTitle img {
+        width: 30px;
+    }
+
+    .cardDuvidas img {
+        width: 60px;
+    }
+
+    h4.fontDuvidas {
+        font-size: 14px;
+    }
+
+    p.fontDuvidas {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    /* Cursos */
+
+    p.cursosFont {
+        width: 100%;
+    }
+
+    /* Áreas de atuação e perfil profissional */
+
+
+    .containerPerfil {
+        width: 100%;
+        min-height: 560px;
+        padding-bottom: 80px;
+    }
+
+    .perfilArea {
+        margin-top: 0 !important;
+        padding-bottom: 10px;
+    }
+
+    .perfilImg {
+        display: none !important;
+    }
+
+
+    /* Faculdades */
+
+    .containerFaculdades {
+        width: 100%;
+        min-height: 500px;
+        background-color: var(--lightGray);
+        border-radius: 5px;
+    }
+
+    h2.faculdadesFont {
+        font-size: 26px !important;
+    }
+
+    .cardFaculdade {
+        margin: 0 auto;
+        width: 270px !important;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /* Engenharia da computação */
+
+    .containerComputacao {
+        height: 360px !important;
+    }
+
+    /* Engenharia Civil */
+
+    .containerCivil {
+        height: 360px !important;
+    }
+
+    /* Engenharia Elétrica */
+
+    .containerEletrica {
+        height: 360px !important;
+    }
+
+    /* Engenharia Química */
+
+    .containerQuimica {
+        height: 360px !important;
+    }
+
+    /* Engenharia de Produção */
+
+    .containerProducao {
+        height: 360px !important;
+    }
+
+    /* Engenharia de Controle e Automação */
+
+    .containerControleAutomacao {
+        height: 360px !important;
+    }
+
+    /* Engenharia Aeronáutica */
+
+    .containerAeronautica {
+        height: 360px !important;
+    }
+
+    /* Engenharia Mecânica */
+
+    .containerMecanica {
+        height: 360px !important;
+    }
+
+    /* Engenharia Ambiental */
+
+    .containerAmbiental {
+        height: 360px !important;
+    }
+
+    /* Engenharia Agronômica */
+
+    .containerAgronomica {
+        height: 360px !important;
+    }
+
+    /* Pós-Graduação */
+
+    .containerPosGrad {
+        min-height: 500px !important;
+    }
+
+    h2.posGradFont {
+        padding-top: 0px !important;
+        font-size: 30px !important;
+    }
+
+    /* Conselhos */
+
+    .conatainerCreas {
+        padding-top: 0 !important;
+    }
+
+    .alertConselhos {
+        width: 98% !important;
+        height: 50px !important;
+        margin: 0 auto;
+    }
+
+    .areaCircles {
+        padding-top: 20px;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Footer */
+
+    h3.footerFont {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navFooter {
+        align-items: center !important;
+    }
+
+
+    a.footerFont {
+        font-size: 16px !important;
+    }
+
+
+    legend.duvidasFont {
+        margin-top: 32px;
+    }
+
+    .formFooter {
+        padding: 0 5% !important;
+    }
+
+    .cardSocial {
+        width: 200px;
+        height: 280px;
+    }
+
+    .imgCardSocial {
+        width: 100%;
+    }
+
+    .cardSocial img {
+        width: 70px;
+    }
+
+    .scdRowFooter {
+        margin-top: 20px;
+    }
+
+    .dropdown-item::before {
+        transform: rotate(-90deg);
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    p {
+        font-size: 18px !important;
+    }
+
+
+    h5 {
+        font-size: 14px !important;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    a {
+        font-size: 12px !important;
+    }
+
+
+    .headline {
+        padding-top: 100px;
+        width: 100%;
+        height: 700px !important;
+        display: flex;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.806) url('../images/bgHeadline-sm.jpg');
+        background-blend-mode: darken;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .containerImages {
+        display: none;
+    }
+
+    .imgEngCivil{
+        width: 300px;
+    }
+    .imgEngEletrica{
+        width: 300px;
+    }
+    .imgEngProducao{
+        width: 340px;
+    }
+    .imgEngAeronautica{
+        width: 300px;
+    }
+    .imgEngMecanica{
+        width: 320px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    h1.headlineFont {
+        font-size: 70px;
+    }
+
+    .imgEngCivil{
+        width: 400px;
+    }
+    .imgEngEletrica{
+        width: 400px;
+    }
+    .imgEngProducao{
+        width: 440px;
+    }
+    .imgEngAeronautica{
+        width: 400px;
+    }
+    .imgEngMecanica{
+        width: 420px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1499.98px) {
+
+    h1.headlineFont {
+        font-size: 70px;
+    }
+
+    .imgEngCivil{
+        width: 400px;
+    }
+    .imgEngEletrica{
+        width: 400px;
+    }
+    .imgEngProducao{
+        width: 440px;
+    }
+    .imgEngAeronautica{
+        width: 400px;
+    }
+    .imgEngMecanica{
+        width: 420px;
+    }
+}

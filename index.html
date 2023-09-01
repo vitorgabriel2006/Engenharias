@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conhecer a área da Engenharia">
+    <meta name="keywords"
+        content="Engenharia Civil, Engenharia Elétrica, Engenharia da Computação, Engenharia de Controle e Automação, Engenharia Mecânica">
+    <meta name="author" content="Kauã Tavares, Kauã Moledo, Vitor Gabriel e Murilo Martins">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Engenharias</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="d-flex flex-column" id="inicio">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3 fixed-top navShadow ps-5 pe-5">
+                    <div class="container-fluid">
+                        <img src="./images/navbarLogo.png" class="navbar-brand" alt="logo navbar" width="50">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto listNavbar">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#inicio">INÍCIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#engenharia">ENGENHARIA</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" data-bs-auto-close="outside" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        GRADUAÇÃO
+                                    </a>
+                                    <ul class="dropdown-menu listNavbar">
+                                        <li class="dropstart">
+                                            <a class="dropdown-item dropdown-toggle text-white"
+                                                data-bs-toggle="dropdown" href="#">ENGENHARIA DA COMPUTAÇÃO</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#engComputacao" class="dropdown-item text-white">SOBRE O
+                                                        CURSO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engCompPerfil" class="dropdown-item text-white">MERCADO DE
+                                                        TRABALHO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engCompFacul" class="dropdown-item text-white">PRINCIPAIS
+                                                        FACULDADES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropstart">
+                                            <a class="dropdown-item dropdown-toggle text-white"
+                                                data-bs-toggle="dropdown" href="#">ENGENHARIA CIVIL</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#engCivil" class="dropdown-item text-white">SOBRE O
+                                                        CURSO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engCivilPerfil" class="dropdown-item text-white">MERCADO
+                                                        DE TRABALHO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engCivilFacul" class="dropdown-item text-white">PRINCIPAIS
+                                                        FACULDADES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropstart">
+                                            <a class="dropdown-item dropdown-toggle text-white"
+                                                data-bs-toggle="dropdown" href="#">ENGENHARIA ELÉTRICA</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#engEletrica" class="dropdown-item text-white">SOBRE O
+                                                        CURSO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engEletricaPerfil"
+                                                        class="dropdown-item text-white">MERCADO DE TRABALHO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engEletricaFacul"
+                                                        class="dropdown-item text-white">PRINCIPAIS
+                                                        FACULDADES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="dropstart">
+                                            <a class="dropdown-item dropdown-toggle text-white"
+                                                data-bs-toggle="dropdown" href="#">ENGENHARIA DE CONTROLE E
+                                                AUTOMAÇÃO</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#engAutomacao" class="dropdown-item text-white">SOBRE O
+                                                        CURSO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engAutomacaoPerfil"
+                                                        class="dropdown-item text-white">MERCADO DE TRABALHO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engAutomacaoFacul"
+                                                        class="dropdown-item text-white">PRINCIPAIS
+                                                        FACULDADES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="dropstart">
+                                            <a class="dropdown-item dropdown-toggle text-white"
+                                                data-bs-toggle="dropdown" href="#">ENGENHARIA MECÂNICA</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#engMecanica" class="dropdown-item text-white">SOBRE O
+                                                        CURSO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engMecanicaPerfil"
+                                                        class="dropdown-item text-white">MERCADO DE TRABALHO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#engMecanicaFacul"
+                                                        class="dropdown-item text-white">PRINCIPAIS
+                                                        FACULDADES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page"
+                                        href="#conselhos">CONSELHOS</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" data-bs-auto-close="outside" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        PÓS-GRADUAÇÃO
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropstart">
+                                            <a class="dropdown-item dropdown-toggle text-white"
+                                                data-bs-toggle="dropdown" href="#">LATO-SENSU</a>
+                                            <ul class="dropdown-menu listNavbar">
+                                                <li>
+                                                    <a href="#myTab" class="dropdown-item text-white"
+                                                        data-bs-target="#tab1-tab"
+                                                        onclick="changeTab(event)">ESPECIALIZAÇÃO</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropstart">
+                                            <a class="dropdown-item dropdown-toggle text-white"
+                                                data-bs-toggle="dropdown" href="#">STRICTO-SENSU</a>
+                                            <ul class="dropdown-menu listNavbar">
+                                                <li>
+                                                    <a href="#myTab" class="dropdown-item text-white"
+                                                        data-bs-target="#tab2-tab"
+                                                        onclick="changeTab(event)">MESTRADO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#myTab" class="dropdown-item text-white"
+                                                        data-bs-target="#tab3-tab"
+                                                        onclick="changeTab(event)">DOUTORADO</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Headline -->
+            <div class="container-fluid position-relative headline">
+                <div class="container">
+                    <div class="row d-flex align-items-center containerHeadline">
+                        <div class="col-lg-6 col-xl-6 headline-sm">
+                            <h1 class="text-white headlineFont">ENGENHARIA</h1>
+                            <h3 class="text-white headlineFont">Conheça os variados cursos de</h3>
+                            <p class="text-white headlineFont">engenharia</p>
+                            <a class="btn btn-warning text-white d-flex align-items-center justify-content-center rounded-pill fa-light headlineFont"
+                                href="#graduacao" role="button">
+                                Cursos <img src="images/arrow-right.png" alt="arrow-right"
+                                    class="arrow-right ps-2 pt-1">
+                            </a>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 containerImages">
+                            <div class="orangeSquare">
+                                <div class="whiteSquare"></div>
+                                <div class="imgInsdustria"></div>
+                                <div class="imgHeadline"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Área Engenharia em Geral -->
+
+        <section class="container-fluid containerEngenharia" id="engenharia">
+            <div class="container d-flex justify-content-center flex-column align-items-center">
+                <h2 class="text-orange engenhariaFont">Engenharia</h2>
+                <p class="text-white engenhariaFont">
+                    A Engenharia é uma área abrangente que se dedica a encontrar soluções práticas para problemas do
+                    mundo real. Os profissionais engenheiros têm a responsabilidade de criar soluções planejadas que
+                    sejam tanto economicamente viáveis quanto tecnicamente sólidas, exigindo um profundo conhecimento do
+                    tema do projeto. Além disso, eles coordenam todo o desenvolvimento do projeto, desde sua concepção
+                    até a implementação e manutenção, necessitando de habilidades de liderança e gerenciamento de
+                    recursos.
+                </p>
+                <p class="text-white engenhariaFont">
+                    Assim, a Engenharia desempenha um papel fundamental na inovação, no desenvolvimento tecnológico e na
+                    melhoria da qualidade de vida global. Molda o presente e constrói o futuro, impactando positivamente
+                    a sociedade através de suas realizações.
+                </p>
+            </div>
+        </section>
+
+        <!-- Área Principais engenharias -->
+
+        <section class="container-fluid containerListAreas" id="graduacao">
+            <div class="container d-flex justify-content-center pt-4 flex-column">
+                <h2 class="text-orange listAreaFont">Você conhece os principais cursos de engenharia?</h2>
+                <h5 class="text-white listAreaFont">A Engenharia é uma vasta área de atuação que compreende uma ampla
+                    gama de cursos. Neste site, exploraremos alguns dos cursos mais proeminentes, detalhando suas
+                    <span class="text-orange">características</span>, o <span class="text-orange">perfil
+                        profissional</span>, o <span class="text-orange">mercado de
+                        trabalho</span>, as <span class="text-orange">principais faculdades</span> e a <span
+                        class="text-orange">grade curricular</span>, sendo eles:
+                </h5>
+
+                <div class="row d-flex gap-5">
+                    <div class="col-2">
+                        <div class="card cardCursos" style="width: 16rem;">
+                            <img src="images/engenharia-civil.jpg" class="card-img-top" style="height: 9.5rem;"
+                                alt="...">
+                            <div class="card-body">
+                                <a href="#engCivil" class="text-white">Engenharia <br> Civil</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card cardCursos" style="width: 16rem;">
+                            <img src="images/engenharia-da-computação.webp" class="card-img-top" style="height: 9.5rem;"
+                                alt="...">
+                            <div class="card-body" style="white-space: nowrap;">
+                                <a href="#engComputacao" class="text-white">Engenharia <br>
+                                    da Computação</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card cardCursos" style="width: 16rem;">
+                            <img src="images/engenharia-eletrica.jpg" class="card-img-top" alt="..."
+                                style="height: 9.5rem;">
+                            <div class="card-body">
+                                <a href="#engEletrica" class="text-white">Engenharia <br> Elétrica</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card cardCursos" style="width: 16rem;">
+                            <img src="images/engenharia-mecanica.jpg" class="card-img-top" alt="..."
+                                style="height: 9.5rem;">
+                            <div class="card-body">
+                                <a href="#engMecanica" class="text-white">Engenharia <br> Mecânica</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card cardCursos" style="width: 16rem;">
+                            <img src="images/controleeautomação.webp" class="card-img-top" alt="..."
+                                style="height: 9.5rem;">
+                            <div class="card-body">
+                                <a href="#engAutomacao" class="text-white">Engenharia de Controle e Automação</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid containerEngImport">
+            <div class="container">
+                <h2 class="text-orange mt-5 pt-3">Qual é a importância da engenharia?</h2>
+                <p class="text-white engenhariaFont pt-2">
+                    A engenharia é de extrema importância na sociedade moderna. Ela desempenha um papel fundamental na
+                    resolução de desafios complexos, na criação de tecnologias inovadoras e na melhoria da qualidade de
+                    vida. Além disso, a engenharia impulsiona a economia global, gerando empregos e contribuindo para o
+                    crescimento de setores-chave, como a indústria e a tecnologia. Os engenheiros desempenham um papel
+                    crítico na garantia da segurança em diversas áreas, assegurando que produtos, estruturas e sistemas
+                    atendam aos mais altos padrões de qualidade e confiabilidade. Em resumo, a engenharia é essencial
+                    para o progresso e o bem-estar da humanidade. <span class="text-orange">Confira abaixo alguns dos
+                        feitos da engenharia</span>
+                </p>
+            </div>
+
+            <div class="container p-5 pb-5">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <!-- Remova os botões dos outros slides aqui -->
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active imgCarouselFilter">
+                            <img src="images/eurotunel.jpeg" class="d-block w-100" alt="..." style="height: 550px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-orange">Eurotúnel</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item imgCarouselFilter">
+                            <img src="images/itaipu.jpg" class="d-block w-100" alt="..." style="height: 550px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-orange">Usina Hidrelétrica de Itaipu</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item imgCarouselFilter">
+                            <img src="images/estacao-espacial.jpg" class="d-block w-100" alt="..."
+                                style="height: 550px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-orange">Estação Espacial Internacional</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item imgCarouselFilter">
+                            <img src="images/canal-do-panama.jpg" class="d-block w-100" alt="..."
+                                style="height: 550px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-orange">Canal do Panamá</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item imgCarouselFilter">
+                            <img src="images/burj-khalifa.webp" class="d-block w-100" alt="..." style="height: 550px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-orange">Burj Khalifa</h5>
+                            </div>
+                        </div>
+                        <!-- Adicione mais itens do carrossel aqui, aplicando o mesmo estilo de altura para as imagens -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class="containerArrow d-flex justify-content-center align-items-center flex-column">
+                <h3 class="text-white">Saiba mais sobre os cursos de engenharia</h3>
+                <img src="./images/arrowOrange.png" width="50px" alt="">
+            </div>
+
+        </section>
+
+
+        <!-- Área Engenharia da computação -->
+        <section class="container-fluid" id="engComputacao">
+            <div class="containerComputacao">
+                <div class="container d-flex flex-column">
+                    <h2 class="text-orange cursosFont mt-5 pt-2">Engenharia da <br>
+                        <span class="text-white">Computação</span>
+                    </h2>
+                    <p class="text-white cursosFont mt-3">
+                        O curso de Engenharia da Computação é uma graduação voltada para a formação de profissionais
+                        capazes de projetar, desenvolver e implementar sistemas computacionais e eletrônicos. A duração
+                        média do curso é de cinco anos, com uma carga horária extensa em disciplinas relacionadas à
+                        matemática, física e tecnologia da computação.
+                    </p>
+                    <p class="text-white cursosFont">
+                        Durante o curso, os alunos aprendem conceitos fundamentais de eletrônica, como o funcionamento
+                        de circuitos e dispositivos eletrônicos, além de matérias relacionadas à programação e
+                        algoritmos.
+                    </p>
+                    <p class="text-white cursosFont" style="padding-bottom: 40px;">
+                        Além disso, a formação em Engenharia da Computação abrange também disciplinas de
+                        gerenciamento de projetos e administração, habilidades essenciais para a gestão de equipes e
+                        coordenação de projetos de tecnologia.
+                        Uma das vantagens de escolher este curso é a ampla possibilidade de atuação profissional, em
+                        empresas de tecnologia, indústrias, empresas de telecomunicações, instituições financeiras e
+                        outras áreas que necessitam de tecnologia para suas operações.
+                    </p>
+
+                    <div class="d-flex gap-3 mb-5">
+                        <div class="doubtsCircle" key="0" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a duração do curso?</div>
+                        <div class="doubtsCircle" key="1" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a média salarial?</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Perfil profissional -->
+            <div class="containerPerfil" id="engCompPerfil">
+                <div class="container d-flex flex-column">
+                    <div class="row mt-5 pt-5 perfilArea">
+                        <div class="col-lg-8">
+                            <h2 class="text-white perfilFont">Conheça o perfil profissional <span
+                                    class="text-orange">,</span></h2>
+                            <h2 class="text-white perfilFont">áreas de atuação
+                                <span class="text-orange">&</span>
+                                mercado de trabalho
+                            </h2>
+                            <p class="text-white perfilFont mt-4">
+                                O perfil profissional de um engenheiro da computação geralmente envolve habilidades
+                                técnicas sólidas em áreas como ciência da computação, engenharia de software, eletrônica
+                                digital e sistemas computacionais. Além disso, eles devem possuir uma mentalidade
+                                analítica, capacidade de solucionar problemas complexos e habilidades de comunicação
+                                eficazes.
+                            </p>
+                            <p class="text-white perfilFont" style="padding-bottom: 30px;">
+                                <!-- <br><br> -->
+                                O mercado de trabalho para engenheiros da computação é incrivelmente dinâmico e
+                                próspero. Com a crescente digitalização de todas as esferas da sociedade e da economia,
+                                a demanda por profissionais qualificados nessa área está em constante crescimento. Os
+                                engenheiros da computação são requisitados em uma ampla variedade de setores, incluindo:
+                                Desenvolvimento de Software, arquitetura de computadores, redes e telecomunicações,
+                                entre outros.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 d-flex col-12 justify-content-start perfilImg">
+                            <img src="./images/engCmputacaoPerfil.png" class="imgEngComputacao" width="100%">
+                        </div>
+                    </div>
+
+                    <!-- Principais faculdades -->
+                    <div class="containerFaculdades" id="engCompFacul">
+                        <div class="headerFaculdades">
+                            <h2 class="text-white text-center mt-3 faculdadesFont">Principais
+                                <span class="text-orange">Faculdades</span>
+                            </h2>
+                        </div>
+                        <div class="containerCards">
+                            <div class="container">
+                                <div class="row mt-1 pt-2 pb-4">
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/uspLogo.jpg" height="215px" class="card-img-top"
+                                                alt="Universidade de São Paulo">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">USP</h5>
+                                                <a target="_blank"
+                                                    href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=97&codcur=97001&codhab=0&tipo=N"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufrjLogo.png" height="215px" class="card-img-top"
+                                                alt="Universidade Federal do Rio de Janeiro">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFRJ</h5>
+                                                <a target="_blank"
+                                                    href="https://www.siga.ufrj.br/sira/temas/zire/frameConsultas.jsp?mainPage=/repositorio-curriculo/61AD45DD-92A4-F79B-3D87-7A444052DF9B.html"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufsc.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFSC</h5>
+                                                <a target="_blank"
+                                                    href="https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=655"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/puc-rio.jpeg" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">PUC-Rio</h5>
+                                                <a target="_blank"
+                                                    href="https://www.puc-rio.br/ensinopesq/ccg/eng_computacao.html"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Área Engenharia Civil -->
+        <section class="container-fluid" id="engCivil">
+            <div class="containerCivil">
+                <div class="container d-flex flex-column">
+                    <h2 class="text-orange cursosFont mt-5 pt-2">Engenharia <br>
+                        <span class="text-white">Civil</span>
+                    </h2>
+                    <p class="text-white cursosFont mt-3">
+                        A engenharia civil é uma área que aplica conhecimentos matemáticos, científicos e tecnológicos
+                        para projetar, construir e manter infraestruturas como edifícios, pontes, estradas, túneis,
+                        sistemas de água e esgoto, entre outros. Os engenheiros civis trabalham em diversas etapas do
+                        processo, desde a concepção do projeto até a sua finalização, garantindo a segurança, eficiência
+                        e sustentabilidade das estruturas construídas.
+                    </p>
+                    <p class="text-white cursosFont">
+                        Além disso, a faculdade de engenharia civil oferece uma formação prática, com a realização de
+                        projetos, obras experimentais, visitas técnicas e estágios em empresas do setor. Dessa forma, os
+                        alunos podem aplicar na prática os conhecimentos adquiridos em sala de aula, além de adquirir
+                        habilidades de liderança, trabalho em equipe e comunicação.
+                    </p>
+
+                    <div class="d-flex gap-3 mb-5 pt-4">
+                        <div class="doubtsCircle" key="2" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a duração do curso?</div>
+                        <div class="doubtsCircle" key="3" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a média salarial?</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Perfil profissional -->
+            <div class="containerPerfil" id="engCivilPerfil">
+                <div class="container d-flex flex-column">
+                    <div class="row mt-5 pt-5 perfilArea">
+                        <div class="col-lg-8">
+                            <h2 class="text-white perfilFont">Conheça o perfil profissional <span
+                                    class="text-orange">,</span></h2>
+                            <h2 class="text-white perfilFont">áreas de atuação
+                                <span class="text-orange">&</span>
+                                mercado de trabalho
+                            </h2>
+                            <p class="text-white perfilFont">
+                                O perfil profissional de um engenheiro civil inclui competência técnica, pensamento
+                                analítico, habilidades de comunicação e liderança. As áreas
+                                de atuação incluem construção civil, infraestrutura, geotecnia, gerenciamento de
+                                projetos, consultoria, ensino e pesquisa. O mercado de trabalho para engenheiros civis é
+                                robusto e diversificado, com alta demanda em várias indústrias devido à crescente
+                                necessidade de infraestrutura moderna e sustentável. Adaptar-se a novas tecnologias e
+                                tendências é essencial neste campo em constante evolução
+                            </p>
+                        </div>
+                        <div class="col-lg-4 d-flex col-12 justify-content-center perfilImg">
+                            <img src="./images/engCivilPerfil.png" class="imgEngCivil" width="600px">
+                        </div>
+                    </div>
+
+                    <!-- Principais faculdades -->
+                    <div class="containerFaculdades" id="engCivilFacul">
+                        <div class="headerFaculdades">
+                            <h2 class="text-white text-center mt-5 faculdadesFont">Principais
+                                <span class="text-orange">Faculdades</span>
+                            </h2>
+                        </div>
+                        <div class="containerCards">
+                            <div class="container">
+                                <div class="row mt-1 pt-2 pb-4">
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/uspLogo.jpg" height="215px" class="card-img-top"
+                                                alt="Universidade de São Paulo">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">USP</h5>
+                                                <a target="_blank"
+                                                    href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=18&codcur=18023&codhab=0&tipo=N"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufrjLogo.png" height="215px" class="card-img-top"
+                                                alt="Universidade Federal do Rio de Janeiro">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFRJ</h5>
+                                                <a target="_blank" href="https://www.siga.ufrj.br/sira/temas/zire/frameConsultas.jsp?mainPage=/repositorio-curriculo/10493C53-92A4-F79D-7004-C040B3315D22.html" class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufmg.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFMG</h5>
+                                                <a target="_blank" href="https://ufmg.br/cursos/graduacao/2401/91074"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufrgs.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFRGS</h5>
+                                                <a target="_blank"
+                                                    href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=317"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Área Engenharia Elétrica -->
+        <section class="container-fluid" id="engEletrica">
+            <div class="containerEletrica">
+                <div class="container d-flex flex-column">
+                    <h2 class="text-orange cursosFont mt-5 pt-2">Engenharia <br>
+                        <span class="text-white">Elétrica</span>
+                    </h2>
+                    <p class="text-white cursosFont mt-3">
+                        O curso de Engenharia Elétrica é uma graduação de nível superior que confere o título de
+                        bacharel e tem uma média de duração de cinco anos. Os engenheiros elétricos desempenham um papel
+                        crucial na sociedade, sendo responsáveis por projetar, construir e manter sistemas elétricos,
+                        eletrônicos e de computação. Esta graduação oferece uma ampla variedade de disciplinas que
+                        permitem que os estudantes se aprofundem em áreas como eletrônica, circuitos elétricos, sistemas
+                        de energia, comunicações e controle de processos. Além das aulas teóricas, o currículo também
+                        inclui experiências práticas em laboratórios, onde os alunos podem aplicar a teoria em projetos
+                        e experimentos, preparando-os para enfrentar desafios reais no campo da engenharia elétrica.
+                    </p>
+                    <div class="d-flex gap-3 mb-5 pt-4">
+                        <div class="doubtsCircle" key="4" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a duração do curso?</div>
+                        <div class="doubtsCircle" key="5" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a média salarial?</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Perfil profissional -->
+            <div class="containerPerfil" id="engEletricaPerfil">
+                <div class="container d-flex flex-column">
+                    <div class="row mt-5 pt-5 perfilArea">
+                        <div class="col-lg-8">
+                            <h2 class="text-white perfilFont">Conheça o perfil profissional <span
+                                    class="text-orange">,</span></h2>
+                            <h2 class="text-white perfilFont">áreas de atuação
+                                <span class="text-orange">&</span>
+                                mercado de trabalho
+                            </h2>
+                            <p class="text-white perfilFont">
+                                O perfil profissional de um engenheiro elétrico envolve habilidades técnicas em
+                                eletricidade, eletrônica, sistemas de potência e controle. Eles são responsáveis pelo
+                                planejamento, projeto, instalação, operação e manutenção de sistemas elétricos em
+                                diversas áreas. Dentre as áreas de atuação de um engenheiro elétrico estão: Engenharia e
+                                sistemas de potência, eletrônica e sistemas embarcados, automação e controle, entre
+                                outros.
+                            </p>
+                            <p class="text-white perfilFont pb-3">
+                                O mercado de trabalho para engenheiros elétricos é sólido e em constante expansão, com
+                                uma crescente demanda por especialistas em energia e eletrônica devido à evolução
+                                tecnológica e a ênfase na eficiência energética e energias renováveis.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 d-flex col-12 justify-content-center perfilImg">
+                            <img src="./images/eletricaPerfil.png" class="imgEngEletrica" width="600px">
+                        </div>
+                    </div>
+
+                    <!-- Principais faculdades -->
+                    <div class="containerFaculdades" id="engEletricaFacul">
+                        <div class="headerFaculdades">
+                            <h2 class="text-white text-center mt-5 faculdadesFont">Principais
+                                <span class="text-orange">Faculdades</span>
+                            </h2>
+                        </div>
+                        <div class="containerCards">
+                            <div class="container">
+                                <div class="row mt-1 pt-2 pb-4">
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/uspLogo.jpg" height="215px" class="card-img-top"
+                                                alt="Universidade de São Paulo">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">USP</h5>
+                                                <a href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=3&codcur=3032&codhab=0&tipo=N"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufmg.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFMG</h5>
+                                                <a target="_blank" href="https://ufmg.br/cursos/graduacao/2405/91218"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufrgs.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFRGS</h5>
+                                                <a target="_blank"
+                                                    href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=323"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufrjLogo.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFRJ</h5>
+                                                <a target="_blank"
+                                                    href="https://www.siga.ufrj.br/sira/temas/zire/frameConsultas.jsp?mainPage=/repositorio-curriculo/F5C17B4B-92A4-F79C-2256-5EE82AA3136E.html"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Área Engenharia de Controle e Automação -->
+        <section class="container-fluid" id="engAutomacao">
+            <div class="containerControleAutomacao">
+                <div class="container d-flex flex-column">
+                    <h2 class="text-orange cursosFont mt-5 pt-2">Engenharia de<br>
+                        <span class="text-white">Controle e Automação</span>
+                    </h2>
+                    <p class="text-white cursosFont mt-3">
+                        A Engenharia de Controle e Automação envolve o projeto e implementação de sistemas de controle e
+                        automação em processos industriais. Os engenheiros dessa área aplicam conhecimentos de várias
+                        disciplinas, como engenharia elétrica, eletrônica, mecânica e computação. Eles desenvolvem
+                        sistemas para monitorar e controlar processos industriais, integram componentes eletrônicos e
+                        programam controladores para sistemas automatizados. O objetivo é melhorar a eficiência,
+                        produtividade e segurança dos processos industriais. Os engenheiros de controle e automação
+                        trabalham em diversos setores industriais e desempenham um papel importante no avanço da
+                        automação industrial.
+                    </p>
+                    <div class="d-flex gap-3 mb-5 pt-4">
+                        <div class="doubtsCircle" key="6" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a duração do curso?</div>
+                        <div class="doubtsCircle" key="7" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a média salarial?</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Perfil profissional -->
+            <div class="containerPerfil" id="engAutomacaoPerfil">
+                <div class="container d-flex flex-column">
+                    <div class="row mt-5 pt-5 perfilArea">
+                        <div class="col-lg-8">
+                            <h2 class="text-white perfilFont">Conheça o perfil profissional <span
+                                    class="text-orange">,</span></h2>
+                            <h2 class="text-white perfilFont">áreas de atuação
+                                <span class="text-orange">&</span>
+                                mercado de trabalho
+                            </h2>
+                            <p class="text-white perfilFont">
+                                Um engenheiro de controle e automação precisa ter conhecimento técnico sólido,
+                                habilidades analíticas e criatividade. Além disso, é necessário ter habilidades de
+                                programação, capacidade de trabalho em equipe, orientação para resultados e estar sempre
+                                atualizado com as novas tecnologias.
+                            </p>
+                            <p class="text-white perfilFont">
+                                Os engenheiros de controle e automação podem atuar em áreas como automação industrial,
+                                sistemas de controle, instrumentação e sensores, robótica e automação de processos,
+                                engenharia de energia e automação predial, pesquisa e desenvolvimento. Eles são
+                                responsáveis por projetar, desenvolver e implementar sistemas automatizados, além de
+                                trabalhar com sensores, controladores e robôs industriais. Além disso, podem se envolver
+                                em consultoria, gestão de projetos e vendas técnicas.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 d-flex col-12 justify-content-end perfilImg">
+                            <img src="./images/automacaoPerfil.png" class="imgEngAutomacao" width="600px">
+                        </div>
+                    </div>
+
+                    <!-- Principais faculdades -->
+                    <div class="containerFaculdades" id="engAutomacaoFacul">
+                        <div class="headerFaculdades">
+                            <h2 class="text-white text-center mt-5 faculdadesFont">Principais
+                                <span class="text-orange">Faculdades</span>
+                            </h2>
+                        </div>
+                        <div class="containerCards">
+                            <div class="container">
+                                <div class="row mt-1 pt-2 pb-4">
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/unip.jpeg" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UNIP</h5>
+                                                <a target="_blank" href="https://www.unip.br/cursos/graduacao/tradicionais/engenharia_controle_automacao.aspx" class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufrjLogo.png" height="215px" class="card-img-top"
+                                                alt="Universidade Federal do Rio de Janeiro">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFRJ</h5>
+                                                <a target="_blank" href="https://poli.ufrj.br/wp-content/uploads/2021/06/grade-controle-automacao.pdf" class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufrgs.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFRGS</h5>
+                                                <a target="_blank" href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=714" class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/puc-rio.jpeg" height="215px" class="card-img-top"
+                                                alt="Universidade de Campinas">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">PUC-Rio</h5>
+                                                <a target="_blank" href="https://www.puc-rio.br/ensinopesq/ccg/eng_automacao.html" class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Área Engenharia Mecânica -->
+        <section class="container-fluid" id="engMecanica">
+            <div class="containerMecanica">
+                <div class="container d-flex flex-column">
+                    <h2 class="text-orange cursosFont mt-5 pt-2">Engenharia<br>
+                        <span class="text-white">Mecânica</span>
+                    </h2>
+                    <p class="text-white cursosFont mt-3">
+                        A Engenharia Mecânica é uma disciplina multifacetada que se concentra no projeto,
+                        desenvolvimento e operação de sistemas mecânicos. Os engenheiros mecânicos são os arquitetos por
+                        trás de uma ampla gama de dispositivos e sistemas que impulsionam nossa sociedade. Eles aplicam
+                        princípios científicos e técnicos para criar soluções inovadoras em áreas tão diversas como
+                        máquinas, estruturas, sistemas térmicos, automação industrial e dispositivos mecânicos de
+                        precisão.
+                    </p>
+                    <p class="text-white cursosFont mt-3">
+                        Os engenheiros mecânicos são agentes do avanço tecnológico, contribuindo para melhorias
+                        contínuas em áreas como energia sustentável, mobilidade e inovação em materiais. Seu trabalho é
+                        essencial para a melhoria da qualidade de vida e o progresso da sociedade como um todo.
+                    </p>
+                    <div class="d-flex gap-3 mb-5 pt-4">
+                        <div class="doubtsCircle" key="8" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a duração do curso?</div>
+                        <div class="doubtsCircle" key="9" onmouseover="changeContent(this)"
+                            onmouseout="resetContent(this)">Qual é a média salarial?</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Perfil profissional -->
+            <div class="containerPerfil" id="engMecanicaPerfil">
+                <div class="container d-flex flex-column">
+                    <div class="row mt-5 pt-5 perfilArea">
+                        <div class="col-lg-8">
+                            <h2 class="text-white perfilFont">Conheça o perfil profissional <span
+                                    class="text-orange">,</span></h2>
+                            <h2 class="text-white perfilFont">áreas de atuação
+                                <span class="text-orange">&</span>
+                                mercado de trabalho
+                            </h2>
+                            <p class="text-white perfilFont">
+
+                                O mercado de trabalho da engenharia mecânica é vasto e diversificado. Os engenheiros
+                                mecânicos são profissionais altamente requisitados em diversos setores, incluindo a
+                                indústria automotiva, aeroespacial, petróleo e gás, consultoria
+                                e engenharia de projetos, entre outros. Eles desempenham papéis essenciais
+                                em todas as etapas, desde o projeto e desenvolvimento até a fabricação e operação de
+                                equipamentos mecânicos, sistemas e processos.
+                            </p>
+                            <p class="text-white perfilFont">
+                                Além disso,
+                                os engenheiros mecânicos têm a oportunidade de se envolver em vendas técnicas, gestão de
+                                projetos e carreiras acadêmicas, o que torna fundamental possuir conhecimento técnico,
+                                habilidades de comunicação, pensamento crítico e gerenciamento de projetos, juntamente
+                                com uma disposição para aprendizado contínuo.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 d-flex col-12 justify-content-center perfilImg">
+                            <img src="./images/mecanicaPerfil.png" class="imgEngMecanica" width="630px">
+                        </div>
+                    </div>
+
+                    <!-- Principais faculdades -->
+                    <div class="containerFaculdades" id="engMecanicaFacul">
+                        <div class="headerFaculdades">
+                            <h2 class="text-white text-center mt-5 faculdadesFont">Principais
+                                <span class="text-orange">Faculdades</span>
+                            </h2>
+                        </div>
+                        <div class="containerCards">
+                            <div class="container">
+                                <div class="row mt-1 pt-2 pb-4">
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufrgs.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFRGS</h5>
+                                                <a target="_blank"
+                                                    href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=324"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/ufmg.png" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UFMG</h5>
+                                                <a target="_blank" href="https://ufmg.br/cursos/graduacao/2407/91219"
+                                                    class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/uspLogo.jpg" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">USP</h5>
+                                                <a target="_blank" href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=18&codcur=18063&codhab=0&tipo=N" class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 align-items-center d-flex">
+                                        <div class="card cardFaculdade" style="width: 18rem;">
+                                            <img src="./images/unesp.webp" height="215px" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="text-orange">UNESP</h5>
+                                                <a target="_blank" href="https://www.feg.unesp.br/Home/Graduacao19/Mecanica/estrutura-curricular-integral.pdf" class="btn btn-primary">Grade Curricular</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Pós-Graduação -->
+
+        <section class="container-fluid containerPosGrad pb-2" id="posGrad">
+            <div class="container d-flex flex-column">
+
+                <h2 class="text-orange posGradFont text-center pt-5">Pós-Graduação</h2>
+
+                <!-- Tab com Accordion  -->
+
+                <ul class="nav nav-tabs pt-5" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active posGradTabFont" id="tab1-tab" data-bs-toggle="tab"
+                            data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1"
+                            aria-selected="true">Especialização</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link posGradTabFont" id="tab2-tab" data-bs-toggle="tab"
+                            data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2"
+                            aria-selected="false">Mestrado</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link posGradTabFont" id="tab3-tab" data-bs-toggle="tab"
+                            data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3"
+                            aria-selected="false">Doutorado</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                        <p class="text-white posGradFont mt-5">
+                            A especialização, também conhecida como pós-graduação lato sensu, é um tipo de curso que
+                            permite aos profissionais aprofundar seus conhecimentos em uma área específica do saber.
+                            Esses cursos são voltados para aqueles que já possuem uma graduação e desejam se
+                            especializar em um campo de estudo mais restrito. A especialização é uma excelente escolha
+                            para quem busca se destacar no mercado de trabalho, pois oferece um conjunto de
+                            conhecimentos práticos e atualizados. A duração dos cursos de especialização varia, mas
+                            geralmente eles podem ser concluídos em 6 meses a 2 anos. Ao final do curso, os estudantes
+                            recebem um certificado de especialização, que pode ser um diferencial em suas carreiras.
+                        </p>
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab1_1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab1_1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab1_1"
+                                                aria-expanded="false" aria-controls="collapseTab1_1">
+                                                Engenharia da Computação
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab1_1" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab1_1" data-bs-parent="#accordionTab1_1">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    A especialização em Engenharia da Computação é voltada para
+                                                    engenheiros da computação ou profissionais de áreas afins que
+                                                    desejam aprimorar seus conhecimentos em um campo específico dentro
+                                                    dessa disciplina. Essa especialização oferece a oportunidade de se
+                                                    especializar em áreas como inteligência artificial, segurança da
+                                                    informação, desenvolvimento de software, redes de computadores e
+                                                    outros.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab1_2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab1_2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab1_2"
+                                                aria-expanded="false" aria-controls="collapseTab1_2">
+                                                Engenharia de Controle e Automação
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab1_2" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab1_2" data-bs-parent="#accordionTab1_2">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    As especializações para engenheiros de controle e automação incluem
+                                                    Gestão da Produção, Automação Industrial, Engenharia de Qualidade e
+                                                    Gestão de Projetos. Essas especializações permitem aprofundar
+                                                    conhecimentos em áreas específicas como otimização de processos,
+                                                    gestão da cadeia de suprimentos, automação industrial, qualidade e
+                                                    gestão de projetos. As opções de especialização podem variar de
+                                                    acordo com a instituição de ensino e o programa de pós-graduação.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab1_3">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab1_3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab1_3"
+                                                aria-expanded="false" aria-controls="collapseTab1_3">
+                                                Engenharia Mecânica
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab1_3" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab1_3" data-bs-parent="#accordionTab1_3">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    Existem diversas especializações em pós-graduação para engenheiros
+                                                    mecânicos, como Mecânica dos Fluidos, Projeto Mecânico, Energia e
+                                                    Sustentabilidade, Controle e Automação de Sistemas, e Materiais e
+                                                    Processos de Fabricação. Essas especializações permitem aprofundar
+                                                    conhecimentos em áreas específicas, como análise de fluidos,
+                                                    desenvolvimento de projetos mecânicos, eficiência energética,
+                                                    automação, materiais e processos de fabricação. As opções de
+                                                    especialização podem variar conforme a instituição de ensino e o
+                                                    programa de pós-graduação
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab1_4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab1_4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab1_4"
+                                                aria-expanded="false" aria-controls="collapseTab1_4">
+                                                Engenharia Civil
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab1_4" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab1_4" data-bs-parent="#accordionTab1_4">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    A especialização em Engenharia Civil é voltada para engenheiros
+                                                    civis e profissionais relacionados que desejam aprofundar seus
+                                                    conhecimentos em uma área específica dessa disciplina. Essa
+                                                    especialização proporciona uma formação especializada em campos como
+                                                    estruturas, geotecnia, gerenciamento de projetos, infraestrutura e
+                                                    outros.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab1_8">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab1_8">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab1_8"
+                                                aria-expanded="false" aria-controls="collapseTab1_8">
+                                                Engenharia Elétrica
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab1_8" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab1_8" data-bs-parent="#accordionTab1_8">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    A especialização em Engenharia Elétrica é destinada a engenheiros
+                                                    elétricos que buscam ampliar seus conhecimentos em uma área
+                                                    específica dessa disciplina. Essa especialização possibilita a
+                                                    especialização em campos como sistemas de potência, eletrônica de
+                                                    potência, automação industrial, telecomunicações e outros.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                        <p class="text-white posGradFont mt-5">
+                            O mestrado é um programa de pós-graduação stricto sensu que combina estudos avançados e
+                            pesquisa acadêmica. Durante os dois anos de duração (em média), os estudantes realizam
+                            disciplinas relacionadas à sua área de estudo e, em seguida, concentram-se em uma pesquisa
+                            original sob a orientação de um professor orientador. Essa pesquisa culmina na elaboração de
+                            uma dissertação de mestrado, que deve ser defendida perante uma banca examinadora. O
+                            mestrado é uma oportunidade única de aprofundar o conhecimento em um campo específico e
+                            desenvolver habilidades de pesquisa. Os mestres estão bem preparados para cargos que
+                            requerem expertise técnica e análise crítica.
+                        </p>
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab2_1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab2_1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab2_1"
+                                                aria-expanded="false" aria-controls="collapseTab2_1">
+                                                Engenharia da Computação
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab2_1" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab2_1" data-bs-parent="#accordionTab2_1">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O mestrado em Engenharia da Computação é destinado a profissionais
+                                                    que buscam ampliar seus conhecimentos e habilidades em uma área
+                                                    específica desse campo de estudo. O programa de mestrado tem uma
+                                                    duração média de dois anos e concentra-se na formação de
+                                                    especialistas altamente capacitados e pesquisadores.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab2_2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab2_2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab2_2"
+                                                aria-expanded="false" aria-controls="collapseTab2_2">
+                                                Engenharia de Controle e Automação
+
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab2_2" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab2_2" data-bs-parent="#accordionTab2_2">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O mestrado em Engenharia de Controle e Automação na pós-graduação
+                                                    oferece uma formação avançada na área, com foco em sistemas de
+                                                    controle, automação industrial, instrumentação e tecnologias
+                                                    relacionadas. O programa tem duração média de dois anos e inclui
+                                                    disciplinas, pesquisa e elaboração de uma dissertação de mestrado.
+                                                    Os graduados estão preparados para atuar em pesquisa,
+                                                    desenvolvimento, docência e indústria, com ênfase em projetos de
+                                                    controle e automação de sistemas.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab2_3">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab2_3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab2_3"
+                                                aria-expanded="false" aria-controls="collapseTab2_3">
+                                                Engenharia Mecânica
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab2_3" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab2_3" data-bs-parent="#accordionTab2_3">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O mestrado em Engenharia Mecânica na pós-graduação é um programa que
+                                                    oferece uma formação avançada na área. Os estudantes adquirem
+                                                    conhecimentos especializados em temas como mecânica dos sólidos,
+                                                    dinâmica de sistemas, termodinâmica, transferência de calor e
+                                                    controle e automação. O programa inclui a realização de pesquisas e
+                                                    a elaboração de uma dissertação de mestrado. Os graduados estão
+                                                    preparados para carreiras em pesquisa, desenvolvimento, docência e
+                                                    indústria relacionadas à Engenharia Mecânica. A duração e os
+                                                    requisitos específicos podem variar entre as instituições.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab2_4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab2_4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab2_4"
+                                                aria-expanded="false" aria-controls="collapseTab2_4">
+                                                Engenharia Civil
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab2_4" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab2_4" data-bs-parent="#accordionTab2_4">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O Programa de Pós-Graduação em Engenharia Civil tem o objetivo de
+                                                    formar recursos humanos qualificados e incentivar a pesquisa e o
+                                                    aprofundamento dos estudos técnicos e científicos relacionados aos
+                                                    campos da Engenharia Civil.
+                                                    O Mestrado visa a possibilitar o desenvolvimento de estudos de
+                                                    natureza científica e tecnológica para o domínio dos instrumentos
+                                                    conceituais e metodológicos da área de Engenharia Civil. Visa,
+                                                    também, a qualificação à docência de nível superior, à pesquisa e ao
+                                                    exercício profissional especializado.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab2_8">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab2_8">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab2_8"
+                                                aria-expanded="false" aria-controls="collapseTab2_8">
+                                                Engenharia Elétrica
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab2_8" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab2_8" data-bs-parent="#accordionTab2_8">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O mestrado em Engenharia Elétrica é voltado para engenheiros
+                                                    elétricos e profissionais de áreas afins que desejam aprofundar seus
+                                                    conhecimentos e habilidades em um campo específico dentro dessa
+                                                    disciplina. O programa de mestrado em Engenharia Elétrica tem
+                                                    duração de dois anos em média e é focado na formação de
+                                                    pesquisadores e profissionais altamente qualificados.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                        <p class="text-white posGradFont mt-5">
+                            O doutorado é o nível mais elevado de educação acadêmica e pesquisa. Normalmente, leva de 3
+                            a 5 anos para ser concluído, embora a duração possa variar. Os estudantes de doutorado
+                            realizam uma pesquisa profunda e original em sua área de estudo sob a orientação de um
+                            orientador experiente. A pesquisa de doutorado envolve uma contribuição significativa para o
+                            avanço do conhecimento na área e resulta em uma tese de doutorado. A defesa da tese perante
+                            uma banca examinadora é um dos momentos mais importantes dessa jornada acadêmica. Aqueles
+                            que obtêm sucesso recebem o título de Doutor. Os doutores estão preparados para carreiras
+                            acadêmicas, de pesquisa e muitas vezes ocupam posições de liderança em suas áreas de
+                            especialização.
+                        </p>
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab3_1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab3_1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab3_1"
+                                                aria-expanded="false" aria-controls="collapseTab3_1">
+                                                Engenharia da Computação
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab3_1" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab3_1" data-bs-parent="#accordionTab3_1">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    Com uma duração média de quatro a seis anos, o doutorado em
+                                                    Engenharia da Computação promove a condução de pesquisas originais e
+                                                    independentes, bem como a participação em eventos científicos de
+                                                    renome e a publicação de trabalhos em periódicos especializados. Os
+                                                    estudantes são orientados por pesquisadores experientes e contam com
+                                                    acesso a laboratórios e recursos de vanguarda, impulsionando sua
+                                                    capacidade de realizar investigações inovadoras.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab3_2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab3_2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab3_2"
+                                                aria-expanded="false" aria-controls="collapseTab3_2">
+                                                Engenharia de Controle e Automação
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab3_2" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab3_2" data-bs-parent="#accordionTab3_2">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O doutorado em Engenharia de Controle e Automação é um programa
+                                                    avançado que forma pesquisadores especializados nessa área. Os
+                                                    estudantes realizam estudos teóricos e práticos, conduzem pesquisas
+                                                    originais e elaboram uma tese de doutorado. O programa tem duração
+                                                    de cerca de quatro a seis anos e prepara os graduados para carreiras
+                                                    em pesquisa, ensino universitário e liderança em pesquisa e
+                                                    desenvolvimento em setores relacionados à Engenharia de Controle e
+                                                    Automação.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab3_3">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab3_3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab3_3"
+                                                aria-expanded="false" aria-controls="collapseTab3_3">
+                                                Engenharia Mecânica
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab3_3" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab3_3" data-bs-parent="#accordionTab3_3">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O doutorado em Engenharia Mecânica é um programa avançado que forma
+                                                    pesquisadores especializados na área. Os estudantes realizam estudos
+                                                    teóricos e práticos, conduzem pesquisas originais e elaboram uma
+                                                    tese de doutorado. O programa tem duração de cerca de quatro a seis
+                                                    anos e prepara os graduados para carreiras em pesquisa, ensino
+                                                    universitário e liderança em pesquisa e desenvolvimento em setores
+                                                    relacionados à Engenharia Mecânica.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab3_4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab3_4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab3_4"
+                                                aria-expanded="false" aria-controls="collapseTab3_4">
+                                                Engenharia Civil
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab3_4" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab3_4" data-bs-parent="#accordionTab3_4">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O doutorado em Engenharia Civil é uma oportunidade para engenheiros
+                                                    civis aprofundarem seus conhecimentos e habilidades em pesquisa e
+                                                    desenvolvimento nessa área. Durante o programa de doutorado, os
+                                                    estudantes têm a chance de investigar questões complexas e
+                                                    inovadoras relacionadas à engenharia civil e contribuir para o
+                                                    avanço científico e tecnológico nesse campo.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="accordion accordion-flush" id="accordionTab3_8">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTab3_8">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTab3_8"
+                                                aria-expanded="false" aria-controls="collapseTab3_8">
+                                                Engenharia Elétrica
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTab3_8" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTab3_8" data-bs-parent="#accordionTab3_8">
+                                            <div class="accordion-body">
+                                                <p class="text-white">
+                                                    O doutorado em Engenharia Elétrica é destinado para engenheiros
+                                                    elétricos que desejam se aprofundar em suas áreas de estudo e
+                                                    contribuir para o avanço do conhecimento científico nesse campo. O
+                                                    programa de doutorado em Engenharia Elétrica tem duração de
+                                                    aproximadamente quatro a seis anos e é projetado para formar
+                                                    pesquisadores de alto nível e especialistas em suas respectivas
+                                                    áreas de interesse.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Fim da Tab com Accordion  -->
+
+    </div>
+    </section>
+
+    <!-- Conselhos -->
+    <section class="container-fluid containerCreas pt-5 pb-5" id="conselhos">
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-12 col-lg-6">
+                    <h2 class="text-white conselhosFont">
+                        Conselhos Regionais de <br>
+                        <span class="text-orange">Engenharia e Agronomia</span>
+                    </h2>
+                    <p class="text-white conselhosFont mt-4">
+                        Os Conselhos Regionais de Engenharia e Agronomia (Crea) são entidades de fiscalização do
+                        exercício de profissões de engenharia e agronomia, em seus estados.
+                    </p>
+                    <div class="alert alertConselhos text-orange" role="alert">
+                        <p>Confira o CREA de cada estado brasileiro nos links.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 d-flex mt-1 justify-content-center align-items-center areaCircles">
+                    <div class="d-flex flex-column row-gap-3">
+                        <div class="col-12 d-flex flex-row gap-4 containerCircles">
+                            <a href="https://creaac.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Acre">AC</a>
+                            <a href="https://www.crea-al.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Alagoas">AL</a>
+                            <a href="https://crea-am.org.br/creaam_site/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Amazonas">AM</a>
+                            <a href="https://creaap.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Amapá">AP</a>
+                            <a href="http://www.creaba.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia da Bahia">BA</a>
+                            <a href="https://www.creace.org.br//"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Ceará">CE</a>
+                        </div>
+                        <div class="col-12 d-flex flex-row gap-4 containerCircles">
+                            <a href="https://www.creadf.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Distrito Federal">DF</a>
+                            <a href="https://portal.creaes.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Espírito Santo">ES</a>
+                            <a href="https://www.creago.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Goiás">GO</a>
+                            <a href="https://www.creama.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Maranhão">MA</a>
+                            <a href="http://www.crea-mg.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Minas Gerais">MG</a>
+                            <a href="https://creams.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Mato Grosso do Sul">MS</a>
+                        </div>
+                        <div class="col-12 d-flex flex-row gap-4 containerCircles">
+                            <a href="https://www.crea-mt.org.br/portal/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Mato Grosso">MT</a>
+                            <a href="https://creapa.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Pará">PA</a>
+                            <a href="https://creapb.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia da Paraíba">PB</a>
+                            <a href="https://www.creape.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Pernambuco">PE</a>
+                            <a href="https://crea-pi.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Piauí">PI</a>
+                            <a href="https://www.crea-pr.org.br/ws/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Paraná">PR</a>
+                        </div>
+                        <div class="col-12 d-flex flex-row gap-4 containerCircles">
+                            <a href="https://novoportal.crea-rj.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Rio de Janeiro">RJ</a>
+                            <a href="https://crea-rn.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Rio Grande do Norte">RN</a>
+                            <a href="https://www.crearo.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Rondônia">RO</a>
+                            <a href="https://crearr.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Roraima">RR</a>
+                            <a href="https://www.crea-rs.org.br/site/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia do Rio Grande do Sul">RS</a>
+                            <a href="https://portal.crea-sc.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Santa Catarina">SC</a>
+                        </div>
+                        <div class="col-12 d-flex flex-row gap-4 containerCircles">
+                            <a href="https://www.crea-se.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Sergipe">SE</a>
+                            <a href="https://www.creasp.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de São Paulo">SP</a>
+                            <a href="https://crea-to.org.br/"
+                                class="circle rounded-circle d-flex justify-content-center align-items-center text-white"
+                                data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                data-bs-title="Conselho Regional de Engenharia e Agronomia de Tocantis">TO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h3 class="text-orange footerFont pb-3">Engenharia</h3>
+                    <ul class="navFooter d-flex flex-column align-items-start">
+                        <li>
+                            <a href="#" class="text-white footerFont">Início</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white footerFont">Engenharia</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white footerFont">Graduação</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white footerFont">Pós-Graduação</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white footerFont">Conselhos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <form class="row g-3 was-validated formFooter">
+                        <fieldset>
+                            <legend class="text-center text-orange duvidasFont">Entre em contato conosco</legend>
+                            <div class="row d-flex flex-column align-items-center">
+                                <div class="col-6 containerInput">
+                                    <label for="validationDefaultUsername" class="form-label mt-2">Email</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="validationDefaultUsername"
+                                            aria-describedby="inputGroupPrepend2" required
+                                            placeholder="Digite o seu email">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 col-6 containerInput">
+                                    <label for="validationTextarea" class="form-label mt-3">Mensagem</label>
+                                    <textarea class="form-control is-invalid" id="validationTextarea"
+                                        placeholder="Digite a sua mensagem aqui" required></textarea>
+                                    <div class="invalid-feedback">
+                                        Digite uma mensagem na área de texto.
+                                    </div>
+                                </div>
+                                <div class="col-6 d-flex justify-content-start containerInput">
+                                    <button class="btn btn-primary btnForm" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="containerSocial">
+                    <div class="row">
+                        <div class="col-12 containerSocialHeader">
+                            <h3 class="text-orange text-center">Conheça nossos outros projetos</h3>
+                            <p class="text-white text-center">Visite o perfil dos integrantes da nossa equipe no
+                                github
+                                para
+                                conhecer nossos outros projetos</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex pt-3">
+                        <div class="col-lg-3 col-6 d-flex justify-content-center">
+                            <div class="card cardSocial">
+                                <div class="card-img-top imgCardSocial d-flex align-items-center flex-column pt-4">
+                                    <img src="./images/githubLogo.png" alt="github logo">
+                                </div>
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <a href="https://github.com/Kauadt"
+                                        class="text-orange pe-3 cardSocialFont">@Kauadt</a>
+                                    <p class="text-white text-center cardSocialFont pt-3">ux/ui design<br>
+                                        & front-end
+                                    </p>
+                                    <a href="https://github.com/Kauadt" class="btn btn-primary">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex justify-content-center">
+                            <div class="card cardSocial">
+                                <div class="card-img-top imgCardSocial d-flex align-items-center flex-column pt-4">
+                                    <img src="./images/githubLogo.png" alt="github logo">
+                                </div>
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <a href="https://github.com/MuriloDeLima"
+                                        class="text-orange pe-2 cardSocialFont">@Murilo Martins</a>
+                                    <p class="text-white text-center cardSocialFont pt-3">front-end</p>
+                                    <a href="https://github.com/MuriloDeLima" class="btn btn-primary">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex justify-content-center scdRowFooter">
+                            <div class="card cardSocial">
+                                <div class="card-img-top imgCardSocial d-flex align-items-center flex-column pt-4">
+                                    <img src="./images/githubLogo.png" alt="github logo">
+                                </div>
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <a href="https://github.com/vitorgabriel2006"
+                                        class="text-orange pe-3 cardSocialFont">@Vitor Gabriel</a>
+                                    <p class="text-white text-center cardSocialFont pt-3">front-end</p>
+                                    <a href="https://github.com/vitorgabriel2006" class="btn btn-primary">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex justify-content-center scdRowFooter">
+                            <div class="card cardSocial">
+                                <div class="card-img-top imgCardSocial d-flex align-items-center flex-column pt-4">
+                                    <img src="./images/githubLogo.png" alt="github logo">
+                                </div>
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <a href="https://github.com/zzzKauaMoledo"
+                                        class="text-orange pe-3 cardSocialFont">@Kaua Moledo</a>
+                                    <p class="text-white text-center cardSocialFont pt-3">front-end</p>
+                                    <a href="https://github.com/zzzKauaMoledo" class="btn btn-primary">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
